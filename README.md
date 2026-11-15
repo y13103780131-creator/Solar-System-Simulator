@@ -1,2 +1,66 @@
-# Solar-System-UE5
-A cinematic solar system simulation built with Unreal Engine 5
+# SOLARIS 🌌
+### A Cinematic Solar System Explorer & Scientific Simulator
+
+**SOLARIS** 是一款以真实天文学数据为基础，融合电影级视觉表现、自由太空探索与科学模拟的交互式太阳系探索项目。
+
+项目致力于让用户通过计算机，以沉浸式的方式探索太阳系，观察天体运动，感受宇宙的真实尺度与壮丽景象。
+
+## ✨ 核心目标
+
+- **沉浸式宇宙探索**：自由穿梭于太阳系，近距离观察行星、卫星及其他天体。
+- **高保真视觉效果**：通过物理启发的光照、行星材质、大气散射、动态云层及专用 Shader，追求接近电影级的视觉体验。
+- **科学模拟**：基于可靠天文学数据模拟天体运动，支持时间控制与天文现象观察。
+- **自由摄影系统**：提供镜头控制、目标跟踪与无界面观察模式。
+- **跨平台体验**：优先支持现代桌面浏览器，并探索未来的 Windows 桌面发行方案。
+
+## 🛠 技术路线
+
+| 模块 | 技术 |
+|---|---|
+| 3D 渲染 | Three.js / WebGPU |
+| 开发语言 | TypeScript |
+| 项目构建 | Vite |
+| 天体运动 | 天文参数与轨道计算模块 |
+| 图形效果 | Custom Shaders / Post-processing |
+| 版本控制 | Git / GitHub |
+| AI 辅助开发 | OpenAI Codex |
+
+WebGPU 为优先探索方向，同时评估 WebGL 兼容方案。
+
+## 🚀 开发计划
+
+**Phase 1 — 基础原型**
+
+建立太阳、地球和月球的基础场景，实现自由镜头、太阳光照及时间控制。
+
+**Phase 2 — 视觉升级**
+
+开发高精度行星材质、大气散射、云层、行星环和高级摄影模式。
+
+**Phase 3 — 科学模拟**
+
+完善真实轨道计算、天体参数、时间系统及天文现象模拟。
+
+**Phase 4 — 太阳系扩展**
+
+逐步加入八大行星、主要卫星及其他代表性天体。
+
+**Phase 5 — 发行评估**
+
+开展性能优化、用户体验测试，并评估未来通过 Steam 发行的可行性。
+
+## 📌 当前状态
+
+**Planning / Project Initialization**
+
+项目目前处于规划和初始化阶段，核心模拟功能尚未实现。
+
+## 📄 License
+
+All rights reserved.
+
+本项目暂不授予第三方使用、修改或重新分发源代码的许可。第三方素材将分别遵循其对应的授权条款。
+
+---
+
+*Explore the Solar System. Experience the Universe.*
