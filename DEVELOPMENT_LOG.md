@@ -25,3 +25,10 @@
 - 在获得下一阶段任务后，确定工具版本和依赖，建立可复现的 Vite + TypeScript + Three.js 原型及必要测试，再实现太阳、地球、月球场景和基本时间、相机控制。
 - 在目标设备上验证渲染后端能力，记录结果和限制；为科学计算选择可追溯数据与参考值。
 - 接手者先检查实际分支、Git 状态和工具版本，阅读 AGENTS.md、PROJECT_PLAN.md 和 ARCHITECTURE.md；不要假设其他机器保留本次工作区的未提交内容或运行进程。
+
+## 2026-11-15：MVP-001 太阳、地球、月球原型
+
+- 在 `work` 分支建立 Three.js、TypeScript、Vite 工程；采用 WebGLRenderer、OrbitControls、示意运动参数与独立模拟时钟，实现星空、基础光照、太阳、地球自转、月球绕地运动，以及暂停和速度控制。视觉距离、尺寸和速度均非真实天文数据，不使用外部纹理。
+- 环境：Node.js v24.22.1、npm 11.9.0。首次 `npm install` 因默认缓存目录不可写失败；`npm install --cache /tmp/solaris-npm-cache` 成功。`npm run typecheck` 和 `npm run build` 通过；Vite 报告压缩后主 chunk 超过 500 kB 的提示。`npm run dev -- --host 127.0.0.1` 启动成功，HTTP 请求返回 200。
+- 无头 Chromium 尝试未能完成页面检查，已中止；场景实际显示、鼠标交互和动画尚未通过浏览器验证。WebGPU、真实天文数据、跨设备兼容性和性能尚未验证。
+- 下一步：在支持 WebGL 的浏览器中检查渲染、暂停、速度与鼠标交互，随后根据结果修复问题；再评估科学数据、WebGPU 和性能预算。当前改动留在 `work`，未提交、未推送。

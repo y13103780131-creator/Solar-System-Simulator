@@ -51,9 +51,11 @@ WebGPU 为优先探索方向，同时评估 WebGL 兼容方案。
 
 ## 📌 当前状态
 
-**Planning / Project Initialization**
+**Phase 1 / MVP 原型**
 
-项目目前处于规划和初始化阶段，核心模拟功能尚未实现。
+已建立太阳、地球和月球的 WebGL 示意场景。天体大小、距离和运动均为艺术性设定，不代表真实天文数据；WebGPU 和科学模拟尚未实现或验证。
+
+需要 Node.js 20.19+ 或 22.12+（Vite 7 要求）。在项目根目录运行 `npm ci` 安装依赖，`npm run dev` 启动开发服务器，`npm run typecheck` 检查类型，`npm run build` 生成生产构建。拖动旋转视角，滚轮缩放，右键平移；界面提供暂停和速度控制。
 
 ## 📄 License
 
