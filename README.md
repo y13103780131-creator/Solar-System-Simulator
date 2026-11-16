@@ -1,66 +1,44 @@
-# SOLARIS 🌌
-### A Cinematic Solar System Explorer & Scientific Simulator
+# SOLARIS 1.0 | 太阳系漫游模拟器
 
-**SOLARIS** 是一款以真实天文学数据为基础，融合电影级视觉表现、自由太空探索与科学模拟的交互式太阳系探索项目。
+**在自己的轨道上探索太阳系。** SOLARIS 是一款 Windows 互动式 3D 天文漫游程序。从太阳系全景出发，自由飞近行星、卫星、矮行星和深空目标，观察表面、轨道与知名地貌。
 
-项目致力于让用户通过计算机，以沉浸式的方式探索太阳系，观察天体运动，感受宇宙的真实尺度与壮丽景象。
+**Explore the Solar System.** SOLARIS is an interactive 3D astronomy explorer for Windows. Fly from the system-wide view to planets, moons, dwarf planets and deep-space targets, and inspect surfaces, orbits and landmarks.
 
-## ✨ 核心目标
+## Windows 下载 / Windows downloads
 
-- **沉浸式宇宙探索**：自由穿梭于太阳系，近距离观察行星、卫星及其他天体。
-- **高保真视觉效果**：通过物理启发的光照、行星材质、大气散射、动态云层及专用 Shader，追求接近电影级的视觉体验。
-- **科学模拟**：基于可靠天文学数据模拟天体运动，支持时间控制与天文现象观察。
-- **自由摄影系统**：提供镜头控制、目标跟踪与无界面观察模式。
-- **跨平台体验**：优先支持现代桌面浏览器，并探索未来的 Windows 桌面发行方案。
-
-## 🛠 技术路线
-
-| 模块 | 技术 |
+| 版本 / Edition | 下载 / Download |
 |---|---|
-| 3D 渲染 | Three.js / WebGPU |
-| 开发语言 | TypeScript |
-| 项目构建 | Vite |
-| 天体运动 | 天文参数与轨道计算模块 |
-| 图形效果 | Custom Shaders / Post-processing |
-| 版本控制 | Git / GitHub |
-| AI 辅助开发 | OpenAI Codex |
+| Windows 安装程序 / Installer | [SOLARIS_Setup_x64.exe — GitHub Releases](https://github.com/y13103780131-creator/Solar-System-Simulator/releases) |
+| 便携 ZIP / Portable edition | [SOLARIS_Portable_x64.zip — GitHub Releases](https://github.com/y13103780131-creator/Solar-System-Simulator/releases) |
+| SHA-256 校验文件 / Integrity checksums | [SOLARIS_SHA256SUMS.txt](https://github.com/y13103780131-creator/Solar-System-Simulator/blob/main/SOLARIS_SHA256SUMS.txt) |
 
-WebGPU 为优先探索方向，同时评估 WebGL 兼容方案。
+发行文件已在本地准备；GitHub Release 附件将在完成素材许可复核后上传。仓库保持 Private，正式公开前会另行确认。 / Release files are being prepared locally. Release assets will be uploaded after asset-license review. The repository remains private pending final approval.
 
-## 🚀 开发计划
+## 功能 / Features
 
-**Phase 1 — 基础原型**
+- 太阳、八大行星、冥王星、卫星、矮行星、小行星带、柯伊伯带、彗星与探测器。
+- 自由镜头控制、天体独立观察、卫星聚焦、地点档案和雷达地貌视图。
+- 模拟速度、太阳光照、曝光、色彩与图层控制；支持中英文 HUD 和沉浸浏览。
+- 原创程序合成氛围音乐、操作音效、用户本地音乐，以及无界面 PNG 截图。
+- Solar System overview, free camera, close-up planet and moon views, landmarks, radar-style views, lighting and time controls.
+- Chinese and English HUD, immersive mode, original synthesized ambience, local music selection and PNG screenshots.
 
-建立太阳、地球和月球的基础场景，实现自由镜头、太阳光照及时间控制。
+天体大小、距离与轨道为了观察经过视觉调整；日球层、部分远距离天体和探测器位置为示意或艺术化重建，不代表精密实时星历或实测地貌。 / Scale, distances and some orbits are visually adjusted. The heliosphere and some distant-body textures and probe positions are illustrative, not precision ephemerides or observed terrain.
 
-**Phase 2 — 视觉升级**
+## 运行环境 / Requirements
 
-开发高精度行星材质、大气散射、云层、行星环和高级摄影模式。
+Windows 10/11 x64 · WebView2 Runtime · .NET Framework 4.7.2+ · WebGL-capable GPU
 
-**Phase 3 — 科学模拟**
+## 源码与权利 / Source and rights
 
-完善真实轨道计算、天体参数、时间系统及天文现象模拟。
+- [浏览 main 源码 / Browse source on main](https://github.com/y13103780131-creator/Solar-System-Simulator/tree/main)
+- [使用说明 / User guide](使用说明.txt)
+- [版权声明 / Copyright](COPYRIGHT.md) · [第三方组件 / Third-party notices](THIRD-PARTY-NOTICES.md) · [素材来源台账 / Asset sources](ASSET-SOURCES.md)
 
-**Phase 4 — 太阳系扩展**
+SOLARIS 原创源代码及原创界面设计保留全部权利；未经授权，不授予复制、修改、二次发行或商业使用许可。第三方软件和素材继续受其各自许可约束。 / All rights in original SOLARIS code and design are reserved. No permission is granted for copying, modification, redistribution or commercial use. Third-party components and assets remain under their respective terms.
 
-逐步加入八大行星、主要卫星及其他代表性天体。
+默认音乐由程序以 Web Audio API 实时合成，不包含 EA 或《Mass Effect 2》音轨。/ Default music is generated in-app with Web Audio API; no EA or Mass Effect 2 audio is included.
 
-**Phase 5 — 发行评估**
+**作者 / Author: Rainy Yang**
 
-开展性能优化、用户体验测试，并评估未来通过 Steam 发行的可行性。
 
-## 📌 当前状态
-
-**Planning / Project Initialization**
-
-项目目前处于规划和初始化阶段，核心模拟功能尚未实现。
-
-## 📄 License
-
-All rights reserved.
-
-本项目暂不授予第三方使用、修改或重新分发源代码的许可。第三方素材将分别遵循其对应的授权条款。
-
----
-
-*Explore the Solar System. Experience the Universe.*

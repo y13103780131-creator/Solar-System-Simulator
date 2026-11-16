@@ -1,0 +1,7 @@
+'use strict';
+// Begin local background audio before the 3D scene and its large textures load.
+(()=>{
+ const boot={audio:null,objectUrl:null,record:null,ambient:false,error:null};window.earlyMusic=boot;
+ function readChoice(){return new Promise(resolve=>{if(!window.indexedDB)return resolve(null);let settled=false;const finish=value=>{if(settled)return;settled=true;resolve(value)};const timeout=setTimeout(()=>finish(null),1500);try{const req=indexedDB.open('solar-explorer-audio',1);req.onupgradeneeded=()=>{if(!req.result.objectStoreNames.contains('settings'))req.result.createObjectStore('settings')};req.onerror=req.onblocked=()=>{clearTimeout(timeout);finish(null)};req.onsuccess=()=>{const db=req.result;try{const tx=db.transaction('settings','readonly'),get=tx.objectStore('settings').get('music');get.onsuccess=()=>{clearTimeout(timeout);finish(get.result||null)};get.onerror=()=>{clearTimeout(timeout);finish(null)};tx.oncomplete=()=>db.close()}catch{db.close();clearTimeout(timeout);finish(null)}}}catch{clearTimeout(timeout);finish(null)}})}
+ boot.ready=readChoice().then(record=>{boot.record=record;if(record&&record.file){boot.objectUrl=URL.createObjectURL(record.file);boot.audio=new Audio(boot.objectUrl);boot.audio.loop=true;boot.audio.volume=.35;boot.audio.preload='auto';const playing=boot.audio.play();if(playing)return playing.catch(err=>{boot.error=err});return}boot.ambient=true}).catch(err=>{boot.error=err;boot.ambient=true});
+})();
