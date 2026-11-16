@@ -29,11 +29,11 @@
 
 Windows 10/11 x64 · WebView2 Runtime · .NET Framework 4.7.2+ · WebGL-capable GPU
 
-## 用户反馈与留言 / Feedback board
+## 用户反馈与留言 / Feedback
 
-欢迎通过[用户反馈与建议留言板 / User Feedback & Suggestions](https://github.com/y13103780131-creator/Solar-System-Simulator/issues/1)交流使用体验、提交问题或功能建议。请附上复现步骤和程序/Windows 版本，并避免发布个人或敏感信息。当前仓库保持 Private，仓库公开后普通用户即可访问留言板。
+SOLARIS 已启用 [GitHub Discussions 交流区](https://github.com/y13103780131-creator/Solar-System-Simulator/discussions)，可用于用户交流、提问和建议；也可以在[用户反馈与问题留言贴](https://github.com/y13103780131-creator/Solar-System-Simulator/issues/1)集中留言。反馈时请附上程序与 Windows 版本、复现步骤和预期/实际结果，并避免发布个人或敏感信息。仓库目前保持 Private，普通用户需等仓库公开后才能访问这些入口。
 
-Share feedback, bug reports, or feature ideas on the [SOLARIS feedback board](https://github.com/y13103780131-creator/Solar-System-Simulator/issues/1). Include reproduction steps and app/Windows versions; do not post personal or sensitive information. The repository is currently private, so the board will become available to regular visitors only if the repository is made public.
+SOLARIS has a [GitHub Discussions board](https://github.com/y13103780131-creator/Solar-System-Simulator/discussions) for questions, ideas, and community conversation. You can also leave feedback in the [dedicated feedback thread](https://github.com/y13103780131-creator/Solar-System-Simulator/issues/1). Please include the app and Windows versions, reproduction steps, and expected/actual results. Do not post personal or sensitive information. The repository is currently private; these links will be available to regular visitors only if the repository is made public.
 
 ## 源码与权利 / Source and rights
 
