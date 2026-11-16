@@ -2,12 +2,13 @@
 
 ## Original SOLARIS work
 
-Copyright (c) 2026 Rainy Yang. All rights reserved.
+Copyright (c) 2026 Rainy Yang. All rights reserved, subject to the limited
+modification permission described in `LICENSE`.
 
-The original SOLARIS application source code, original interface implementation,
-project-authored graphics and interaction design, and original program-generated
-music are reserved works. No copying, modification, derivative distribution, or
-commercial-use permission is granted to third parties. See `LICENSE`.
+The author permits others to modify the original SOLARIS source code and
+original interface design. The permission is limited as described in `LICENSE`;
+it does not grant public redistribution of original or modified versions,
+sublicensing, sale, or commercial use unless separately authorized.
 
 ## Separate third-party rights
 
@@ -19,4 +20,3 @@ by their own terms. See `THIRD-PARTY-NOTICES.md` and `ASSET-SOURCES.md`.
 Repository visibility does not change these rights or grant permission to reuse
 materials. AI-generated or procedural imagery is identified separately where
 known; it is not represented as observed planetary data.
-
