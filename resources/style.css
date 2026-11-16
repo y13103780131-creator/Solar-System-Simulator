@@ -43,5 +43,5 @@ body{font-family:"Microsoft YaHei UI","Microsoft YaHei","Segoe UI",sans-serif}.l
 .about-dialog .about-links a{color:#e2bd88;text-decoration:none}
 .about-dialog .about-links a:hover{text-decoration:underline}
 @media(max-height:650px){.about-dialog>div{max-height:90vh;padding:14px 20px}.about-dialog img{height:24vh}.about-dialog h2{margin:7px 0;font-size:20px}.about-dialog p{margin:6px 0}}
-.about-qr-crop{width:190px;height:190px;margin:8px auto;border-radius:8px;background-color:#fff;background-image:url('assets/author-zhilink.jpg');background-repeat:no-repeat;background-size:auto 1205px;background-position:-280px -763px;box-shadow:0 0 0 1px #ffffff36,0 8px 25px #0008}
-@media(max-height:650px){.about-qr-crop{width:170px;height:170px;background-size:auto 1078px;background-position:-251px -683px}}
+.about-qr-crop{width:190px;height:190px;margin:8px auto;border-radius:8px;background-color:#fff;background-image:url('assets/author-zhilink.jpg');background-repeat:no-repeat;background-size:auto 1205px;background-position:-270px -752px;box-shadow:0 0 0 1px #ffffff36,0 8px 25px #0008}
+@media(max-height:650px){.about-qr-crop{width:170px;height:170px;background-size:auto 1078px;background-position:-241px -672px}}
