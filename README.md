@@ -43,8 +43,7 @@ SOLARIS has a [GitHub Discussions board](https://github.com/y13103780131-creator
 
 SOLARIS 原创源代码及原创界面设计保留全部权利；未经授权，不授予复制、修改、二次发行或商业使用许可。第三方软件和素材继续受其各自许可约束。 / All rights in original SOLARIS code and design are reserved. No permission is granted for copying, modification, redistribution or commercial use. Third-party components and assets remain under their respective terms.
 
-默认音乐由程序以 Web Audio API 实时合成，不包含 EA 或《Mass Effect 2》音轨。/ Default music is generated in-app with Web Audio API; no EA or Mass Effect 2 audio is included.
-
+默认音乐由程序以 Web Audio API 实时合成/ Default music is generated in-app with Web Audio API
 **作者 / Author: Rainy Yang**
 
 
