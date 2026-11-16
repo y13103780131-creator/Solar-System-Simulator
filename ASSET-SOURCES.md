@@ -85,7 +85,7 @@ marked below; no asset is declared public domain by this ledger.
 - USGS/IAU planetary nomenclature: <https://planetarynames.wr.usgs.gov/> — source for names/coordinates, not blanket permission for unrelated image files.
 - Wikimedia Commons: <https://commons.wikimedia.org/> — identify the exact file page and license before relying on a generic author citation.
 
-## Release gate
+## Source and usage notes
 
-Rows marked unresolved or “verify” are not cleared for redistribution. Before public release, match each such file to its original product page, capture required creator/credit/license and modifications, or replace it with a cleared asset. Do not infer public-domain status from NASA-related subject matter, a filename, or a mirror repository.
+Some entries still need file-specific source details or applicable terms to be documented. This ledger reflects the information currently available for each asset. When additional source records are available, record the creator, relevant license or usage terms, and any modifications. A filename, subject matter, or mirror repository alone does not establish an individual asset's usage terms.
 
