@@ -28,7 +28,8 @@ internal sealed class SolarAtlasWindow : Form
         Controls.Add(view);
         Shown += async (sender, args) => {
             try {
-                string dataDirectory = Path.Combine(installDirectory, "cache", "WebView2");
+                string dataDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "SOLARIS", "WebView2");
+                Directory.CreateDirectory(dataDirectory);
                 CoreWebView2EnvironmentOptions options = new CoreWebView2EnvironmentOptions("--autoplay-policy=no-user-gesture-required", null, null, false);
                 CoreWebView2Environment environment = await CoreWebView2Environment.CreateAsync(null, dataDirectory, options);
                 await view.EnsureCoreWebView2Async(environment);
@@ -75,11 +76,13 @@ internal sealed class SolarAtlasWindow : Form
             byte[] signature = { 137, 80, 78, 71, 13, 10, 26, 10 };
             if (png.Length < signature.Length) throw new InvalidDataException("PNG 数据不完整");
             for (int i = 0; i < signature.Length; i++) if (png[i] != signature[i]) throw new InvalidDataException("PNG 格式无效");
-            string folder = Path.Combine(installDirectory, "screenshot");
+            string pictures = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
+            if (String.IsNullOrWhiteSpace(pictures)) pictures = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "SOLARIS");
+            string folder = Path.Combine(pictures, "SOLARIS", "Screenshots");
             Directory.CreateDirectory(folder);
             string name = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss-fff") + ".png";
             using (var file = new FileStream(Path.Combine(folder, name), FileMode.CreateNew, FileAccess.Write, FileShare.None)) file.Write(png, 0, png.Length);
-            view.CoreWebView2.PostWebMessageAsString("OK|" + name);
+            view.CoreWebView2.PostWebMessageAsString("OK|" + Path.Combine("Pictures", "SOLARIS", "Screenshots", name));
         } catch (Exception error) {
             view.CoreWebView2.PostWebMessageAsString("ERR|" + error.Message);
         }
@@ -92,3 +95,4 @@ internal sealed class SolarAtlasWindow : Form
         Application.Run(new SolarAtlasWindow());
     }
 }
+
