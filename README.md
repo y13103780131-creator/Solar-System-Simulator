@@ -12,7 +12,7 @@
 | 便携 ZIP / Portable edition | [SOLARIS_Portable_x64.zip — GitHub Releases](https://github.com/y13103780131-creator/Solar-System-Simulator/releases) |
 | SHA-256 校验文件 / Integrity checksums | [SOLARIS_SHA256SUMS.txt](https://github.com/y13103780131-creator/Solar-System-Simulator/blob/main/SOLARIS_SHA256SUMS.txt) |
 
-发行文件尚未核实或发布；上表链接目前指向 Releases 页面，并非可用的安装包下载。现有 SHA-256 记录尚未与对应文件核对，请勿作为已验证的发行校验值。素材许可及历史审核完成后才会准备公开发行。 / Release files have not yet been verified or published. The links above lead to the Releases page, not available downloads. The recorded SHA-256 values have not been checked against their files and are not verified release checksums. Public release remains pending asset-license and history review.
+安装包和便携包已在本地找到，其 SHA-256 与校验文件一致，但尚未发布。上表链接目前指向 Releases 页面，并非可用的安装包下载。公开发行仍需完成素材许可及历史审核。 / The installer and portable archive were found locally and their SHA-256 hashes match the checksum file, but they have not been published. The links above lead to the Releases page, not available downloads. Public release remains pending asset-license and history review.
 
 ## 功能 / Features
 
