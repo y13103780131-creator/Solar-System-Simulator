@@ -47,7 +47,7 @@ SOLARIS has a [GitHub Discussions board](https://github.com/y13103780131-creator
 
 作者允许他人为修改目的复制并修改 SOLARIS 原创源代码及原创界面设计。该许可不包括公开再发行、转授权或商业使用，除非另行授权。第三方软件和素材仍适用各自许可条款。 / The author permits others to copy original SOLARIS source code and interface design as necessary to modify them. This permission does not include public redistribution of original or modified versions, sublicensing, or commercial use unless separately authorized. Third-party software and assets remain subject to their own terms.
 
-默认音乐由程序以 Web Audio API 实时合成/ Default music is generated in-app with Web Audio API
+默认氛围音乐由程序通过 Web Audio API 在应用内实时合成。/ Default ambient music is synthesized in-app using the Web Audio API.
 **作者 / Author: Rainy Yang**
 
 
