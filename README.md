@@ -8,11 +8,11 @@
 
 | 版本 / Edition | 下载 / Download |
 |---|---|
-| Windows 安装程序 / Installer | [SOLARIS_Setup_x64.exe — GitHub Releases](https://github.com/y13103780131-creator/Solar-System-Simulator/releases) |
-| 便携 ZIP / Portable edition | [SOLARIS_Portable_x64.zip — GitHub Releases](https://github.com/y13103780131-creator/Solar-System-Simulator/releases) |
+| Windows 安装程序 / Installer | [SOLARIS_Setup_x64.exe — 下载 / Download](https://github.com/y13103780131-creator/Solar-System-Simulator/releases/latest/download/SOLARIS_Setup_x64.exe) |
+| 便携 ZIP / Portable edition | [SOLARIS_Portable_x64.zip — 下载 / Download](https://github.com/y13103780131-creator/Solar-System-Simulator/releases/latest/download/SOLARIS_Portable_x64.zip) |
 | SHA-256 校验文件 / Integrity checksums | [SOLARIS_SHA256SUMS.txt](https://github.com/y13103780131-creator/Solar-System-Simulator/blob/main/SOLARIS_SHA256SUMS.txt) |
 
-安装包和便携包已在本地找到，其 SHA-256 与校验文件一致，但尚未发布。上表链接目前指向 Releases 页面，并非可用的安装包下载。公开发行仍需完成素材许可及历史审核。 / The installer and portable archive were found locally and their SHA-256 hashes match the checksum file, but they have not been published. The links above lead to the Releases page, not available downloads. Public release remains pending asset-license and history review.
+SOLARIS 1.0 安装程序、便携 ZIP 与 SHA-256 校验文件已上传至 GitHub 草稿 Release。草稿尚未发布，仓库目前保持 Private；公开下载入口将在最终发布且仓库公开后生效。 / The SOLARIS 1.0 installer, portable ZIP and SHA-256 file have been uploaded to a GitHub draft release. The draft is not published and the repository remains private; public download links will work after final publication and repository visibility is changed.
 
 ## 功能 / Features
 
