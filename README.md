@@ -12,7 +12,7 @@
 | 便携 ZIP / Portable edition | [SOLARIS_Portable_x64.zip — 下载 / Download](https://github.com/y13103780131-creator/Solar-System-Simulator/releases/latest/download/SOLARIS_Portable_x64.zip) |
 | SHA-256 校验文件 / Integrity checksums | [SOLARIS_SHA256SUMS.txt](https://github.com/y13103780131-creator/Solar-System-Simulator/blob/main/SOLARIS_SHA256SUMS.txt) |
 
-SOLARIS 1.0 安装程序、便携 ZIP 与 SHA-256 校验文件已上传至 GitHub 草稿 Release。草稿尚未发布，仓库目前保持 Private；公开下载入口将在最终发布且仓库公开后生效。 / The SOLARIS 1.0 installer, portable ZIP and SHA-256 file have been uploaded to a GitHub draft release. The draft is not published and the repository remains private; public download links will work after final publication and repository visibility is changed.
+SOLARIS 1.0 已正式发布，安装程序、便携 ZIP 与 SHA-256 校验文件可从上方链接下载。 / SOLARIS 1.0 is now published. The installer, portable ZIP and SHA-256 file are available from the links above.
 
 ## 功能 / Features
 
