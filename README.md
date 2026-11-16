@@ -12,7 +12,11 @@
 | 便携 ZIP / Portable edition | [SOLARIS_Portable_x64.zip — 下载 / Download](https://github.com/y13103780131-creator/Solar-System-Simulator/releases/latest/download/SOLARIS_Portable_x64.zip) |
 | SHA-256 校验文件 / Integrity checksums | [SOLARIS_SHA256SUMS.txt](https://github.com/y13103780131-creator/Solar-System-Simulator/blob/main/SOLARIS_SHA256SUMS.txt) |
 
-SOLARIS 1.0 已正式发布，安装程序、便携 ZIP 与 SHA-256 校验文件可从上方链接下载。 / SOLARIS 1.0 is now published. The installer, portable ZIP and SHA-256 file are available from the links above.
+SOLARIS 1.0 已正式发布，安装程序、便携 ZIP 与 SHA-256 校验文件可从上方链接下载。 / SOLARIS 1.0 is officially released. The installer, portable ZIP and SHA-256 file are available from the links above.
+
+## 免费与公益说明 / Free public-interest project
+
+SOLARIS 免费提供，作为公益性质的天文科普与互动体验项目分享，不以商业盈利为目的。该说明不改变 SOLARIS 原创代码的权利声明，也不取代第三方组件与素材各自适用的许可条款。 / SOLARIS is offered free of charge as a public-interest astronomy project and is not intended for commercial profit. This describes the project's distribution purpose; it does not change the rights notice for original SOLARIS code or replace the terms that apply to third-party components and assets.
 
 ## 功能 / Features
 
@@ -31,9 +35,9 @@ Windows 10/11 x64 · WebView2 Runtime · .NET Framework 4.7.2+ · WebGL-capable 
 
 ## 用户反馈与留言 / Feedback
 
-SOLARIS 已启用 [GitHub Discussions 交流区](https://github.com/y13103780131-creator/Solar-System-Simulator/discussions)，可用于用户交流、提问和建议；也可以在[用户反馈与问题留言贴](https://github.com/y13103780131-creator/Solar-System-Simulator/issues/1)集中留言。反馈时请附上程序与 Windows 版本、复现步骤和预期/实际结果，并避免发布个人或敏感信息。仓库目前保持 Private，普通用户需等仓库公开后才能访问这些入口。
+SOLARIS 已启用 [GitHub Discussions 交流区](https://github.com/y13103780131-creator/Solar-System-Simulator/discussions)，可用于用户交流、提问和建议；也可以在[用户反馈与问题留言贴](https://github.com/y13103780131-creator/Solar-System-Simulator/issues/1)集中留言。反馈时请附上程序与 Windows 版本、复现步骤和预期/实际结果，并避免发布个人或敏感信息。仓库现为公开状态，访客可以访问这些入口。
 
-SOLARIS has a [GitHub Discussions board](https://github.com/y13103780131-creator/Solar-System-Simulator/discussions) for questions, ideas, and community conversation. You can also leave feedback in the [dedicated feedback thread](https://github.com/y13103780131-creator/Solar-System-Simulator/issues/1). Please include the app and Windows versions, reproduction steps, and expected/actual results. Do not post personal or sensitive information. The repository is currently private; these links will be available to regular visitors only if the repository is made public.
+SOLARIS has a [GitHub Discussions board](https://github.com/y13103780131-creator/Solar-System-Simulator/discussions) for questions, ideas, and community conversation. You can also leave feedback in the [dedicated feedback thread](https://github.com/y13103780131-creator/Solar-System-Simulator/issues/1). Please include the app and Windows versions, reproduction steps, and expected/actual results. Do not post personal or sensitive information. The repository is public, so visitors can access these links.
 
 ## 源码与权利 / Source and rights
 
