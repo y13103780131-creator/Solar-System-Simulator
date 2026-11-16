@@ -1,47 +1,44 @@
-# 太阳系漫游模拟器
-### Solar System Explorer · 在自己的轨道上探索太阳系
+# SOLARIS 1.0 | 太阳系漫游模拟器
 
-从太阳出发，穿越行星、卫星与遥远的小天体。**太阳系漫游模拟器**是一款以实时 3D 场景呈现的 Windows 桌面探索程序：你可以自由环视星空、飞近目标天体、观察表面细节，也可以在行星系统中继续追踪它的卫星与地貌。
+**在自己的轨道上探索太阳系。** SOLARIS 是一款 Windows 互动式 3D 天文漫游程序。从太阳系全景出发，自由飞近行星、卫星、矮行星和深空目标，观察表面、轨道与知名地貌。
 
-它更像一座可以亲自驾驶镜头进入的数字天文展厅——适合沉浸式浏览、课堂演示、天文爱好者探索，或单纯在星海中漫游。
+**Explore the Solar System.** SOLARIS is an interactive 3D astronomy explorer for Windows. Fly from the system-wide view to planets, moons, dwarf planets and deep-space targets, and inspect surfaces, orbits and landmarks.
 
-## 探索内容
+## Windows 下载 / Windows downloads
 
-- **太阳系全景**：太阳、八大行星、冥王星及卫星、小行星带、柯伊伯带、彗星、矮行星与深空探测器。
-- **独立天体系统**：飞近行星或卫星，观察表面纹理、光照和主要卫星；在支持的天体上切换雷达地貌视图。
-- **地点档案**：查看行星和卫星上的知名地点、探测器着陆点及简要介绍。
-- **自由观察**：旋转、缩放和平移镜头；通过目录或画面标签快速定位目标。
-- **观测控制**：调整模拟速度、太阳光照、色彩、曝光和图层，隐藏 HUD 进入沉浸模式。
-- **声音与记录**：原创程序合成氛围音乐与操作音效，支持导入本地音乐，并可保存无界面 PNG 截图。
-- **中英文界面**：在中文与英文 HUD 之间切换。
+| 版本 / Edition | 下载 / Download |
+|---|---|
+| Windows 安装程序 / Installer | [SOLARIS_Setup_x64.exe — GitHub Releases](https://github.com/y13103780131-creator/Solar-System-Simulator/releases) |
+| 便携 ZIP / Portable edition | [SOLARIS_Portable_x64.zip — GitHub Releases](https://github.com/y13103780131-creator/Solar-System-Simulator/releases) |
+| SHA-256 校验文件 / Integrity checksums | [SOLARIS_SHA256SUMS.txt](https://github.com/y13103780131-creator/Solar-System-Simulator/blob/main/SOLARIS_SHA256SUMS.txt) |
 
-## 画面与模型说明
+发行文件已在本地准备；GitHub Release 附件将在完成素材许可复核后上传。仓库保持 Private，正式公开前会另行确认。 / Release files are being prepared locally. Release assets will be uploaded after asset-license review. The repository remains private pending final approval.
 
-程序使用高分辨率天体纹理，并为少数观测资料有限的远距离天体采用艺术化重建。云层、光环、星尘、轨道和日球层共同构成可探索的视觉场景。
+## 功能 / Features
 
-为了兼顾全景浏览和近距离观察，天体大小、轨道距离及部分轨道展示经过视觉缩放；小行星带、柯伊伯带、日球层和探测器位置属于示意。它们用于辅助理解空间结构，不代表实时精密星历或所有天体的真实相对尺度。
+- 太阳、八大行星、冥王星、卫星、矮行星、小行星带、柯伊伯带、彗星与探测器。
+- 自由镜头控制、天体独立观察、卫星聚焦、地点档案和雷达地貌视图。
+- 模拟速度、太阳光照、曝光、色彩与图层控制；支持中英文 HUD 和沉浸浏览。
+- 原创程序合成氛围音乐、操作音效、用户本地音乐，以及无界面 PNG 截图。
+- Solar System overview, free camera, close-up planet and moon views, landmarks, radar-style views, lighting and time controls.
+- Chinese and English HUD, immersive mode, original synthesized ambience, local music selection and PNG screenshots.
 
-## 获取程序
+天体大小、距离与轨道为了观察经过视觉调整；日球层、部分远距离天体和探测器位置为示意或艺术化重建，不代表精密实时星历或实测地貌。 / Scale, distances and some orbits are visually adjusted. The heliosphere and some distant-body textures and probe positions are illustrative, not precision ephemerides or observed terrain.
 
-仓库当前提供 Windows 程序目录的 ZIP 快照：
+## 运行环境 / Requirements
 
-[下载 Windows ZIP 仓库快照](https://github.com/y13103780131-creator/Solar-System-Simulator/archive/refs/heads/main.zip)
+Windows 10/11 x64 · WebView2 Runtime · .NET Framework 4.7.2+ · WebGL-capable GPU
 
-解压后运行 `太阳系漫游模拟器.exe`。该链接下载的是主分支快照；下载和访问需要相应的仓库权限。**GitHub Releases 目前尚未上传独立安装包附件**，因此这里暂不提供 EXE 安装包下载链接。
+## 源码与权利 / Source and rights
 
-## 运行要求
+- [浏览 main 源码 / Browse source on main](https://github.com/y13103780131-creator/Solar-System-Simulator/tree/main)
+- [使用说明 / User guide](使用说明.txt)
+- [版权声明 / Copyright](COPYRIGHT.md) · [第三方组件 / Third-party notices](THIRD-PARTY-NOTICES.md) · [素材来源台账 / Asset sources](ASSET-SOURCES.md)
 
-- Windows 10/11，64 位
-- Microsoft Edge WebView2 Runtime
-- .NET Framework 4.7.2 或更高版本
-- 支持 WebGL 的显卡
+SOLARIS 原创源代码及原创界面设计保留全部权利；未经授权，不授予复制、修改、二次发行或商业使用许可。第三方软件和素材继续受其各自许可约束。 / All rights in original SOLARIS code and design are reserved. No permission is granted for copying, modification, redistribution or commercial use. Third-party components and assets remain under their respective terms.
 
-详细操作参见 [使用说明](使用说明.txt)。素材来源、许可证及版权信息参见 [素材与项目说明](素材与项目说明.md)。
+默认音乐由程序以 Web Audio API 实时合成，不包含 EA 或《Mass Effect 2》音轨。/ Default music is generated in-app with Web Audio API; no EA or Mass Effect 2 audio is included.
 
-## 音乐与素材版权
+**作者 / Author: Rainy Yang**
 
-默认氛围音乐由程序使用 Web Audio API 实时合成，不包含第三方游戏音乐。用户可导入本地音频；其来源和使用授权由用户自行确认。程序引用的第三方软件、纹理及其他素材仍归各自权利人所有，请遵守对应许可和署名要求；未经授权，不要重新分发受限制的素材。
 
----
-
-**作者：Rainy Yang** · [项目仓库](https://github.com/y13103780131-creator/Solar-System-Simulator)
